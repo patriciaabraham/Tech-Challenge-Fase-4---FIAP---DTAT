@@ -1,4 +1,4 @@
-# 📈 PRevisão de Tendência do Ibovespa — Tech Challenge (FIAP)
+# 📈 Previsão de Tendência do Ibovespa — Tech Challenge (FIAP)
 
 Aplicação desenvolvida para o Tech Challenge da FIAP com o objetivo de disponibilizar um **modelo preditivo de séries temporais** em produção, por meio de uma aplicação interativa em **Streamlit**.
 
