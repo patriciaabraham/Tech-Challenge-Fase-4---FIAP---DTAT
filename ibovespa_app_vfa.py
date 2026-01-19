@@ -87,7 +87,7 @@ historical_data = load_historical_data()
 expected_features = list(getattr(model, "feature_names_in_", []))
 
 # --- HEADER ---
-st.title("🚀 Ibovespa Trend Predictor")
+st.title("🚀 Previsão de Tendência do Ibovespa")
 st.markdown("""
 Esta aplicação utiliza um modelo de *Regressão Logística* para prever se o fechamento do Ibovespa de amanhã será *maior* que o de hoje.
 """)
@@ -252,4 +252,5 @@ if not historical_data.empty:
         st.info("Selecione pelo menos uma métrica para visualizar o gráfico histórico.")
 else:
     st.info("Carregue os dados históricos para ver a análise de tendências.")
+
 
