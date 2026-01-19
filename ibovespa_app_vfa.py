@@ -9,7 +9,7 @@ import numpy as np
 from pathlib import Path
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
-st.set_page_config(page_title="Preditor Ibovespa - Tech Challenge", layout="wide")
+st.set_page_config(page_title="Previsão de Tendência do Ibovespa - Tech Challenge", layout="wide")
 
 # --- PATH BASE (evita erro de caminho ao rodar no VS Code/Streamlit) ---
 BASE_DIR = Path(__file__).resolve().parent
@@ -252,3 +252,4 @@ if not historical_data.empty:
         st.info("Selecione pelo menos uma métrica para visualizar o gráfico histórico.")
 else:
     st.info("Carregue os dados históricos para ver a análise de tendências.")
+
