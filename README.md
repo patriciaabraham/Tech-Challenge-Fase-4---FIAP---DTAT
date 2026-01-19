@@ -4,6 +4,8 @@ Aplicação desenvolvida para o Tech Challenge da FIAP com o objetivo de disponi
 
 O modelo prevê se o **fechamento do índice Ibovespa do próximo dia útil será maior ou menor do que o fechamento do dia atual**.
 
+LINK PUBLICO DA APLICAÇÃO: https://techchallengegrupo12.streamlit.app/
+
 ---
 
 ## 🚀 Demonstração (Streamlit)
